@@ -1,15 +1,224 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Deenah Laron</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
         <link href-'style.css' rel="stylesheet">
     </head>
     <body>
         <header>
-            <nav>
-                <h1>Hello World!</h1>
+            <nav class="horizontal-menu">
+                <div class="nav-button">
+                    <a href="#about-me">ABOUT</a>
+                </div>
+                <div class="nav-button">
+                    <a href="#education">EDUCATION</a>
+                </div>
+                <div class="nav-button">
+                    <a href="#work">EXPERIENCE</a>
+                </div>
+                <div class="nav-button">
+                    <a href="#projects">PROJECTS</a>
+                </div>
             </nav>
+            <nav class="vertical-menu">
+                <i class="fa fa-github" style="font-size:24px"></i>
+                <i class="fa fa-linkedin-square" style="font-size:24px"></i>
+                <i class="fa fa-instagram" style="font-size:24px"></i>
+            </nav>
+            <h1>Hi, I'm Deenah Laron</h1>
+            <img id="my-photo" src="/Users/deenahlaron/Documents/GitHub/deenahl.github.io/IMG_6285.jpg"/>
         </header>
+        <main>
+            <div class="main-section" id="about-me">
+                <h1>About Me</h1>
+                <p>
+                Hello! My name is Deenah. I am a 4th-year computer science student at the University of 
+                British Columbia, with a background in biochemistry and healthcare. Despite being new to the field,
+                I have developed a strong interest in web development and cloud computing. 
+                </p>
+                <p>
+                In my free time, I enjoy visiting tea shops, building keyboards, and snowboarding.
+                </p>
+            </div>
+            <div class="main-section" id="tech-stack">
+                <h1>Tech Stack</h1>
+                <div class="tech-stack-section">
+                    <span>Python, Java, C++, C#</span>
+                </div>
+                <div class="tech-stack-section">
+                    <span>HTML, CSS, JavaScript</span>
+                </div>
+                <div class="tech-stack-section">
+                    <span>GCP</span>
+                </div>
+                <div class="tech-stack-section">
+                    <span>SQL, R</span>
+                </div>
+                <div class="tech-stack-section">
+                    <span>Github</span>
+                </div>
+            </div>
+            <div class="main-section" id="education">
+                <h1>Education</h1>
+                <div class="education-container">
+                    <h3>The University of British Columbia</h3>
+                    <p class="date">September 2021 - Present</p>
+                    <ul>
+                        <li>Bachelor of Computer Science</li>
+                    </ul>
+                </div>
+                <div class="education-container">
+                    <h3>The University of British Columbia</h3>
+                    <p class="date">September 2016 - April 2021</p>
+                    <ul>
+                        <li>Bachelor of Science in Biochemistry</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-section" id="work">
+                <h1>Work Experience</h1>
+                <div class="work-container">
+                    <h3>
+                        <span>Software Test and Development Engineer</span>
+                        <span class="work-place">
+                            @ <a href="https://www.changehealthcare.com/" target="_blank">Change Healthcare</a>
+                        </span>
+                    </h3>
+                    <p class="date">August 2022 - Present</p>
+                    <ul>
+                        <li>Regularly performs sanity tests to ensure software builds work as expected.</li>
+                        <li>
+                            Meticulously completed Quality Assurance Testing (QAT) to identify bugs for a software
+                            upgrade.
+                        </li>
+                        <li>Familiar with running scripts on GCP, cloud SQL, and utilizing VMs created on the cloud.</li>
+                    </ul>
+                </div>
+                <div class="work-container">
+                    <h3>
+                        <span>Stock Lead</span>
+                        <span class="work-place">
+                            @ <a href="https://www.oakandfort.com/" target="_blank">Oak+Fort</a>
+                        </span>
+                    </h3>
+                    <p class="date">May 2022 - Present</p>
+                    <ul>
+                        <li>
+                            Responsible for receiving shipment, ensuring inventory accuracy, and organizing the inventory.
+                        </li>
+                        <li>Support in the onboarding of new stock and sales associates.</li>
+                        <li>Efficiently performs opening and closing procedures with a high degree of accuracy.</li>
+                    </ul>
+                </div>
+                <div class="work-container">
+                    <h3>
+                        <span>Research Assistant</span>
+                        <span class="work-place">
+                            @ <a href="https://meg.lsi.ubc.ca/current-membership/dr-leann-howe/dr-leann-howe-research/" target="_blank">The Howe Lab</a>
+                        </span>
+                    </h3>
+                    <p class="date">January 2020 - August 2021</p>
+                    <ul>
+                        <li>Conducted Epigenetic research on <em>Saccharomyces cerevisiae.</em></li>
+                        <li>Analyzed DNA sequences using online bioifnormatic programs and R.</li>
+                        <li>
+                            Investigated the role of the FACT complex during replication using an SPT16 
+                            temperature-sensitive mutant.
+                        </li>
+                        <li>
+                            Investigated the mechanism of cell death via overexpression of the GAL4-VP16 construct 
+                            in <em>S. cerevisae.</em>
+                        </li>
+                    </ul>
+                </div>
+                <div class="work-container">
+                    <h3>
+                        <span>Research Assistant</span>
+                        <span class="work-place">
+                            @ <a href="https://www.bcchr.ca/sabhaneys-lab/start-program" target="_blank">START</a>
+                        </span>
+                    </h3>
+                    <p class="date">August 2018 - January 2021</p>
+                    <ul>
+                        <li>
+                            Responsible for recruiting eligible candidates for pediatric studies at 
+                            BC Children's Hospital
+                        </li>
+                        <li>
+                            Communicated the study objectives to patients and parents, determined eligibility, 
+                            and ensured that the proper paperwork was filled out. 
+                        </li>
+                        <li>
+                            Transported patient samples and performed diagnostic tests.
+                        </li>
+                    </ul>
+                </div>
+                <div class="work-container">
+                    <h3>
+                        <span>Product Development Assistant</span>
+                        <span class="work-place">
+                            @ <a href="https://responsebio.com/" target="_blank">Response Biomedical</a>
+                        </span>
+                    </h3>
+                    <p class="date">May 2019 - December 2019</p>
+                    <ul>
+                        <li>Performed experimental tests on the company's RAMP lateral flow immunoassays.</li>
+                        <li>Conducted stability studies to determine the new standards for all tests.</li>
+                        <li>Began the development stages to create a new NT-proBNP test.</li>
+                    </ul>
+                </div>
+                <div class="work-container">
+                    <h3>
+                        <span>Volunteer</span>
+                        <span class="work-place">
+                            @ <a href="https://www.thecodeinitiative.ca/" target="_blank">The C.O.D.E Initiative</a>
+                        </span>
+                    </h3>
+                    <p class="date">July 2018</p>
+                    <ul>
+                        <li>
+                            Taught children on the autism spectrum the basics of computer coding 
+                            and how to built simple computer games using Scratch.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-section" id="projects">
+                <h1>Projects & Accomplishments</h1>
+                <div class="project-container">
+                    <h3>
+                        <a href="https://github.com/deenahl/Pomodoro-Timer" target="_blank">Pomodoro Timer</a>
+                    </h3>
+                    <p class="date">Fall 2021</p>
+                    <p>
+                        With the intention of improving my studying habits, I had built this application
+                        as my term project for my software construction class. This app is used to create
+                        a to-do list, which will automatically create a study schedule based on the 
+                        Pomodoro studying technique. The app displays a timer to countdown the amount of 
+                        time left for studying or break. 
+                    </p>
+                    <p>
+                        <span class="project-tech-stack">Java</span>
+                        <span class="project-tech-stack">Java Swing</span>
+                        <span class="project-tech-stack">JUnit testing</span>
+                        <span class="project-tech-stack">JSON</span>
+                    </p>
+                </div>
+                <div class="project-container">
+                    <h3>
+                        NSERC USRA
+                    </h3>
+                    <p class="date">Summer 2020</p>
+                    <p>
+                        I was awarded an Undergraduate Student Research Award by the Natural Sciences and 
+                        Engineering Research Council of Canada. With the supervision of Dr. LeAnn Howe, I 
+                        investigated the topic of re-establishing gene expression on newly replicated DNA.
+                    </p>
+                </div>
+            </div>
+        </main>
 
     </body>
 </html>
