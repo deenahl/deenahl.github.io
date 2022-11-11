@@ -8,31 +8,32 @@
     </head>
     <body>
         <header>
-            <nav class="horizontal-menu">
-                <div class="nav-button">
-                    <a href="#about-me">ABOUT</a>
-                </div>
-                <div class="nav-button">
-                    <a href="#education">EDUCATION</a>
-                </div>
-                <div class="nav-button">
-                    <a href="#work">EXPERIENCE</a>
-                </div>
-                <div class="nav-button">
-                    <a href="#projects">PROJECTS</a>
-                </div>
+            <nav id="horizontal-menu">
+                <ul id="horizontal-menu-list">
+                    <li><a href="#about-me">ABOUT</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#work">EXPERIENCE</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                </ul>
+
             </nav>
-            <nav class="vertical-menu">
+            <nav id="vertical-menu">
                 <i class="fa fa-github" style="font-size:24px"></i>
                 <i class="fa fa-linkedin-square" style="font-size:24px"></i>
                 <i class="fa fa-instagram" style="font-size:24px"></i>
             </nav>
-            <h1>Hi, I'm Deenah Laron</h1>
-            <img id="my-photo" src="/Users/deenahlaron/Documents/GitHub/deenahl.github.io/IMG_6285.jpg"/>
+            <div class="header-intro">
+                <h1 id="header-intro-hello">Hi, I'm Deenah Laron</h1>
+            </div>
+            
         </header>
         <main>
             <div class="main-section" id="about-me">
-                <h1>About Me</h1>
+                <div class="section-head">
+                    <h1><span>About Me</span></h1>
+                </div>  
+                <br>
+                <img id="my-photo" src="/Users/deenahlaron/Documents/GitHub/deenahl.github.io/IMG_6285.jpg" width="150"/>
                 <p>
                 Hello! My name is Deenah. I am a 4th-year computer science student at the University of 
                 British Columbia, with a background in biochemistry and healthcare. Despite being new to the field,
@@ -43,7 +44,7 @@
                 </p>
             </div>
             <div class="main-section" id="tech-stack">
-                <h1>Tech Stack</h1>
+                <h1>Tech Stack</h1> 
                 <div class="tech-stack-section">
                     <span>Python, Java, C++, C#</span>
                 </div>
@@ -219,6 +220,81 @@
                 </div>
             </div>
         </main>
-
     </body>
+
+    <style>
+        body {
+            background-color: #474f4d; 
+        }
+
+        .header-intro {
+            background-image: url("background.jpg");
+            height: 500px;
+        }
+
+        .header-intro h1 {
+            position: relative;
+            top: 250px;
+            text-align: center;
+            color:aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 300;
+            font-size: 35px;
+        }
+
+        #horizontal-menu {
+            background-color: #94a4a0; 
+            list-style-type: none;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #horizontal-menu-list li {
+            display: inline-block;
+            font-size: 15px;
+            padding: 20px;
+        }
+
+        #horizontal-menu li a:link, a:visited {
+            background-color: #94a4a0;
+            color: white;
+            border: 2px solid #94a4a0;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+        }
+
+        #horizontal-menu-list li a:hover, a:active {
+            background-color: white;
+            color:#94a4a0;
+        }
+
+        .main-section {
+            padding: 20px;
+        }
+
+        .main-section h1 {
+            color: white;
+            font-weight: 300;
+            font-family:'Courier New', Courier, monospace;
+        }
+
+        .section-head h1 {
+            width: 100%;
+            text-align: center;
+            border-bottom: 1px solid white;
+            line-height: 0.1em;
+            margin: 10px 0 20px;
+        }
+
+        h1 span {
+            background: #474f4d;
+            padding: 0 10px;
+        }
+
+        
+
+    </style>
 </html>
