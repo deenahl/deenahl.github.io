@@ -4,7 +4,7 @@
         <title>Deenah Laron</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
-        <link href-'style.css' rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
@@ -33,7 +33,9 @@
                     <h1><span>About Me</span></h1>
                 </div>  
                 <br>
-                <img id="my-photo" src="/Users/deenahlaron/Documents/GitHub/deenahl.github.io/IMG_6285.jpg" width="150"/>
+                <div id="my-photo">
+                    <img src="/Users/deenahlaron/Documents/GitHub/deenahl.github.io/IMG_6285.jpg" width="150"/>
+                </div>
                 <p>
                 Hello! My name is Deenah. I am a 4th-year computer science student at the University of 
                 British Columbia, with a background in biochemistry and healthcare. Despite being new to the field,
@@ -44,7 +46,9 @@
                 </p>
             </div>
             <div class="main-section" id="tech-stack">
-                <h1>Tech Stack</h1> 
+                <div class="section-head">
+                    <h1><span>Tech Stack</span></h1> 
+                </div>
                 <div class="tech-stack-section">
                     <span>Python, Java, C++, C#</span>
                 </div>
@@ -62,7 +66,9 @@
                 </div>
             </div>
             <div class="main-section" id="education">
-                <h1>Education</h1>
+                <div class="section-head">
+                    <h1><span>Education</span></h1>
+                </div>
                 <div class="education-container">
                     <h3>The University of British Columbia</h3>
                     <p class="date">September 2021 - Present</p>
@@ -79,7 +85,9 @@
                 </div>
             </div>
             <div class="main-section" id="work">
-                <h1>Work Experience</h1>
+                <div class="section-head">
+                    <h1><span>Work Experience</span></h1>
+                </div>
                 <div class="work-container">
                     <h3>
                         <span>Software Test and Development Engineer</span>
@@ -187,7 +195,9 @@
                 </div>
             </div>
             <div class="main-section" id="projects">
-                <h1>Projects & Accomplishments</h1>
+                <div class="section-head">
+                    <h1><span>Projects & Accomplishments</span></h1>
+                </div>
                 <div class="project-container">
                     <h3>
                         <a href="https://github.com/deenahl/Pomodoro-Timer" target="_blank">Pomodoro Timer</a>
@@ -227,21 +237,33 @@
             background-color: #474f4d; 
         }
 
-        .header-intro {
-            background-image: url("background.jpg");
-            height: 500px;
-            width: auto;
-            background-size: cover;
+        p {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 0px 40px;
         }
 
-        .header-intro h1 {
-            position: relative;
-            top: 250px;
-            text-align: center;
-            color:aliceblue;
-            font-family: 'Courier New', Courier, monospace;
+        .date {
+            text-align: left;
+            font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+            padding: 0px
+        }
+
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
             font-weight: 300;
-            font-size: 35px;
+            font-size: 20px;
+            color: white;
+        }
+
+        ul {
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+
+        .work-place {
+            color: #e1f9f3;
         }
 
         #horizontal-menu {
@@ -273,6 +295,23 @@
             color:#94a4a0;
         }
 
+        .header-intro {
+            background-image: url("background.jpg");
+            height: 500px;
+            width: auto;
+            background-size: cover;
+        }
+
+        .header-intro h1 {
+            position: relative;
+            top: 250px;
+            text-align: center;
+            color:aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 300;
+            font-size: 35px;
+        }
+
         .main-section {
             padding: 20px;
         }
@@ -296,7 +335,9 @@
             padding: 0 10px;
         }
 
-        
+        #my-photo {
+            text-align: center;
+        }
 
     </style>
 </html>

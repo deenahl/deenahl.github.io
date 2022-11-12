@@ -1,0 +1,104 @@
+/* 
+body {
+    background-color: #474f4d; 
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.date {
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.work-place {
+    color: #e1f9f3;
+}
+
+#horizontal-menu {
+    background-color: #94a4a0; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#horizontal-menu-list li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 20px;
+}
+
+#horizontal-menu li a:link, a:visited {
+    background-color: #94a4a0;
+    color: white;
+    border: 2px solid #94a4a0;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+}
+
+#horizontal-menu-list li a:hover, a:active {
+    background-color: white;
+    color:#94a4a0;
+}
+
+.header-intro {
+    background-image: url("background.jpg");
+    height: 500px;
+    width: auto;
+    background-size: cover;
+}
+
+.header-intro h1 {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.main-section {
+    padding: 20px;
+}
+
+.main-section h1 {
+    color: white;
+    font-weight: 300;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.section-head h1 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid white;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h1 span {
+    background: #474f4d;
+    padding: 0 10px;
+}
+
+#my-photo {
+    position: relative;
+    left: 150px;
+}
+*/
