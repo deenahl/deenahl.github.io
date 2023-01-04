@@ -306,9 +306,10 @@
             outline: none;
         }
 
-        #horizontal-menu-list li a:hover, a:active {
-            background-color: white;
+        #horizontal-menu-list li a:hover, a:active {      
             color:#94a4a0;
+            text-decoration: none;
+            box-shadow: inset 11em 0 0 0 white;
         }
 
         .header-intro {
@@ -433,7 +434,15 @@
         }
 
         #projects a:hover {
-            color: #63A791;
+            text-decoration: none;
+            color: white;
+            box-shadow: inset 11em 0 0 0 rgb(97, 195, 162);
+        }
+
+        a {
+            box-shadow: inset 0 0 0 0 rgb(97, 195, 162);
+            transition: color .3s ease-in-out, box-shadow 0.3s ease-in-out;
+
         }
 
         a:link {
@@ -448,7 +457,8 @@
 
         a:hover {
             text-decoration: none;
-            color: #63A791;
+            color: white;
+            box-shadow: inset 11em 0 0 0 rgb(97, 195, 162);
         }
 
         a:active {
