@@ -27,26 +27,31 @@
                     <i class="fa fa-instagram" id="instagram-icon"></i>
                 </a>
             </nav>
-            <div class="header-intro">
-                <h1 id="header-intro-hello">Hi, I'm Deenah Laron</h1>
-            </div>
+
         </header>
  
         <main>
             <div class="main-section" id="about-me">
-                <div class="section-head">
-                    <h1><span>About Me</span></h1>
-                </div>
                 <div id="introduction-section">
                     <span id="introduction-paragraph">
-                        <p>
-                            Hello! My name is Deenah. I am a 4th-year computer science student at the University of 
+                        <span id="header-intro-hello">
+                            Hi, my name is
+                        </span>
+                        <br>
+                        <br>
+                        <span id="header-intro-name">
+                            Deenah Laron.
+                        </span>
+                        <br>
+                        <br>
+                        <span id="header-intro-info">
+                            I am a 4th-year computer science student at the University of 
                             British Columbia, with a background in biochemistry and healthcare. Despite being new to the field,
                             I have developed a strong interest in web development and cloud computing. 
                             <br>
                             <br>
                             In my free time, I enjoy visiting tea shops, building keyboards, and snowboarding.
-                        </p>
+                        </span>
                     </span>
                     <span>
                         <img id="my-photo" src="IMG_6285.jpg"/>
@@ -237,7 +242,7 @@
     <style>
 
         body {
-            background-color: #474f4d; 
+            background-color: #FFFFFF; 
             min-width: 35em;
             line-height: 1.7em;
             font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
@@ -250,7 +255,7 @@
         }
 
         p {
-            color: white;
+            color: #3E3E3E;
             text-align: left;
             padding: 0em 0.5em;
             font-size: 1em;
@@ -260,18 +265,18 @@
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bolder;
             font-size: 1.4em;
-            color: white;
+            color: #3E3E3E;
             line-height: 1em;
         }
 
         ul {
             font-family: Arial, Helvetica, sans-serif;
-            color: white;
+            color: #3E3E3E;
             font-size: 1em;
         }
 
         .date {
-            color: aquamarine;
+            color: #3E3E3E;
             text-align: left;
             font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace; 
             font-size: 1.1em;
@@ -283,11 +288,10 @@
         }
 
         #horizontal-menu {
-            background-color: #94a4a0; 
             list-style-type: none;
             text-align: center;
             margin: 0em;
-            padding: 0em;       
+            padding: 0em;    
         }
 
         #horizontal-menu-list li {
@@ -297,9 +301,8 @@
         }
 
         #horizontal-menu li a:link, a:visited {
-            background-color: #94a4a0;
-            color: white;
-            border: 0.2em solid #94a4a0;
+            background: white;
+            color: #3E3E3E;
             padding: 0.5em 1em;
             text-align: center;
             text-decoration: none;
@@ -307,26 +310,9 @@
         }
 
         #horizontal-menu-list li a:hover, a:active {      
-            color:#94a4a0;
+            color:white;
             text-decoration: none;
-            box-shadow: inset 11em 0 0 0 white;
-        }
-
-        .header-intro {
-            background-image: url("background.jpg");
-            height: 40em;
-            width: auto;
-            background-size: cover;
-        }
-
-        .header-intro h1 {
-            position: relative;
-            top: 7em;
-            text-align: center;
-            color:aliceblue;
-            font-family: 'Courier New', Courier, monospace;
-            font-weight: 300;
-            font-size: 2.8em;
+            box-shadow: inset 11em 0 0 0 #6FA3FF;
         }
 
         .section-head {
@@ -336,12 +322,12 @@
         .section-head h1 {
             width: auto;
             text-align: center;
-            border-bottom: 0.05em solid white;
+            border-bottom: 0.05em solid black;
             line-height: 0.1em;
         }
 
         h1 span {
-            background: #474f4d;
+            background: white;
             padding: 0em 0.4em;
             overflow: scroll;
         }
@@ -352,7 +338,7 @@
         }
 
         .main-section h1 {
-            color: white;
+            color: #3E3E3E;
             font-weight: 300;
             font-family:'Courier New', Courier, monospace;
         }
@@ -370,9 +356,24 @@
             flex-grow: 1em;
         }
 
-        #introduction-section p {
+        #header-intro-hello {
+            font-size: 1.1em;
+            font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+            color: #3E3E3E;
+            
+        }
+
+        #header-intro-name {
+            font-size: 4em;
+            color: #3E3E3E;
+            font-weight: 600;
+        }
+
+        #header-intro-info {
             display: inline;
             text-align: left;
+            font-size: 1.1em;
+            color: #3E3E3E;
         }
 
         #my-photo {
@@ -386,7 +387,7 @@
         }
 
         #tech-stack-list {
-            color: white;
+            color: #3E3E3E;
             display: flex;
             align-items: center;
             flex-wrap: wrap;
@@ -398,13 +399,13 @@
         #tech-stack-list span {
             font-size: 1em;
             padding: 0.3em;
-            border: 0.1em solid white;
+            border: 0.1em solid #3E3E3E;
             border-radius: 0.3em;
         }
 
         #project-tech-stack {
             display: flex;
-            color: white;
+            color: #3E3E3E;
             align-items: center;
             flex-wrap: wrap;
             justify-content: center;
@@ -415,50 +416,50 @@
 
         .project-tech-stack {
             font-size: 1em;
-            border: 0.1em solid white;
+            border: 0.1em solid #3E3E3E;
             border-radius: 0.3em;
             padding: 0.3em;
 
         }
 
         #horizontal-menu a:visited {
-            color: white;
+            color: #3E3E3E;
         }
 
         #projects a:link {
-            color: white;
+            color: #3E3E3E;
         }
 
         #projects a:visited {
-            color: white;
+            color: #3E3E3E;
         }
 
         #projects a:hover {
             text-decoration: none;
-            color: white;
-            box-shadow: inset 11em 0 0 0 rgb(97, 195, 162);
+            color: #3E3E3E;
+            box-shadow: inset 11em 0 0 0 #CCDEFF;
         }
 
         a {
-            box-shadow: inset 0 0 0 0 rgb(97, 195, 162);
+            box-shadow: inset 0 0 0 0 #CCDEFF;
             transition: color .3s ease-in-out, box-shadow 0.3s ease-in-out;
 
         }
 
         a:link {
             text-decoration: none;
-            color: aquamarine;
+            color: #6FA3FF;
         }
 
         a:visited {
             text-decoration: none;
-            color: aquamarine;
+            color: #CCDEFF;
         }
 
         a:hover {
             text-decoration: none;
-            color: white;
-            box-shadow: inset 11em 0 0 0 rgb(97, 195, 162);
+            color: #3E3E3E;
+            box-shadow: inset 11em 0 0 0 #CCDEFF;
         }
 
         a:active {
@@ -480,6 +481,7 @@
 
         #github-icon:hover {
             bottom: 3.3em;
+            color: #333;
         }
 
         #linkedin-icon {
@@ -487,10 +489,13 @@
             left: 1em;
             padding-bottom: 2em;
             transition: bottom 0.3s;
+            
         }
 
         #linkedin-icon:hover {
             bottom: 2.3em;
+            color: #0077b5;
+            
         }
 
         #instagram-icon {
@@ -502,6 +507,9 @@
 
         #instagram-icon:hover {
             bottom: 1.3em;
+            color: white;
+            box-shadow: inset 0 -1em white;
+            background: linear-gradient(45deg, #405de6,#5851db,#833ab4,#c13584,#e1306c,#fd1d1d);
         }
 
 
