@@ -1,0 +1,1 @@
+// Hides navigations bar after scrolling some time 
