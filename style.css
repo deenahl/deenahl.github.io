@@ -46,9 +46,11 @@ ul {
 }
 
 #horizontal-menu {
+    position: sticky;
+    top: 0;
     list-style-type: none;
     text-align: center;
-    margin: 0em;
+    margin: 0em;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
     padding: 0em;    
 }
 
