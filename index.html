@@ -241,15 +241,15 @@
     <style>
         body {
             background-color: #FFFFFF; 
-            min-width: 35em;
+            min-width: 45em;
             line-height: 1.7em;
             font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
         }
 
         main {
             max-width: 52em;
-            margin: auto;
             overflow: visible;
+            margin-top: 7em;
         }
 
         p {
@@ -286,16 +286,19 @@
         }
 
         #horizontal-menu {
-            position: -webkit-sticky;
-            position: sticky;
+            overflow: hidden;
+            min-width: 45em;
+            position: fixed;
             top: 0;
+            width: 100%;
             list-style-type: none;
-            text-align: center;
-            margin: 0em;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-            padding: 0em;    
+            margin: 0em;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+            padding: 0em; 
+            background-color: white;
         }
 
         #horizontal-menu-list li {
+            text-align: center;
             display: inline-block;
             font-size: 1em;
             padding: 1em;
